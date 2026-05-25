@@ -1,8 +1,5 @@
 <!-- expander:image-slot name="hero" placeholder -->
-<!-- ADD AN IMAGE, either way:
-     A) Drop any image file into  docs/images/hero/  (any filename), then re-run the skill.
-     B) GitHub web editor: delete the <img> line below, click the empty line, paste a screenshot. -->
-<img alt="hero — PASTE" src="PASTE">
+<img width="2048" height="1152" alt="thumby-hero" src="https://github.com/user-attachments/assets/b4b0110c-fec3-403a-af41-7b64cba3b3d4" />
 <!-- /expander:image-slot -->
 
 If you make content, you know the feeling. You finish editing a piece of software, or a video, or a project, and the very last hurdle is making a thumbnail. You just need something clean, fast, and striking. So what do most of us do? We open up Photoshop, Figma, or Canva. Those are amazing tools, and I use them all the time. But for a quick text-overlay iteration, they can feel like massive overkill. You are suddenly dealing with layers, complex bounding boxes, canvas resizing, and heavy memory usage just to snap a single word onto an image.
@@ -46,6 +43,7 @@ My favorite part to build was the positioning. You grab the text box and drag it
      B) GitHub web editor: delete the <img> line below, click the empty line, paste a screenshot. -->
 <img alt="body-1 — PASTE" src="PASTE">
 <!-- /expander:image-slot -->
+<img width="2048" height="1152" alt="thubmy-1" src="https://github.com/user-attachments/assets/695542f7-74be-4101-9b09-556b2d3acd2b" />
 
 ## The Engineering Detail That Makes The Preview Honest
 
@@ -69,6 +67,7 @@ Going native in Swift was part of the same decision. A tool meant to feel instan
      B) GitHub web editor: delete the <img> line below, click the empty line, paste a screenshot. -->
 <img alt="body-2 — PASTE" src="PASTE">
 <!-- /expander:image-slot -->
+<img width="2048" height="1152" alt="thumby-2" src="https://github.com/user-attachments/assets/3aa4a584-7990-4f80-90c9-5a5d77c6e932" />
 
 ## When To Reach For Thumby
 
