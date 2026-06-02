@@ -1,4 +1,4 @@
-<!-- article:image-slot name="hero" placeholder -->
+<!-- article:image-slot name="hero" -->
 <img width="2048" height="1152" alt="thumby-hero" src="https://github.com/user-attachments/assets/b4b0110c-fec3-403a-af41-7b64cba3b3d4" />
 <!-- /article:image-slot -->
 
