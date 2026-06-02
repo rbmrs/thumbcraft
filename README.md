@@ -1,5 +1,3 @@
-<img width="2048" height="1152" alt="thumby-hero" src="https://github.com/user-attachments/assets/b4b0110c-fec3-403a-af41-7b64cba3b3d4" />
-
 # Thumby
 
 A small, native macOS app for fast thumbnail text overlays. Drop in an image, type a word, pick a style, place it, export a PNG. No layers, no canvas setup.
