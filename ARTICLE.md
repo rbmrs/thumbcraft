@@ -1,5 +1,9 @@
 <!-- article:image-slot name="hero" -->
-<img width="2048" height="1152" alt="thumby-hero" src="https://github.com/user-attachments/assets/b4b0110c-fec3-403a-af41-7b64cba3b3d4" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/hero/image.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/images/hero/image.png">
+  <img width="1600" height="900" alt="Thumby — one word, one image" src="docs/images/hero/image.png">
+</picture>
 <!-- /article:image-slot -->
 
 If you make content, you know the feeling. You finish a project, and the last hurdle is a thumbnail. You just need something clean and striking, so you open Photoshop, Figma, or Canva. Those are great tools, but for snapping a single word onto an image they can feel like overkill: layers, bounding boxes, canvas resizing, heavy memory, all to test one idea. I wanted a frictionless way to try thumbnail ideas instead. Just a window where I drop or paste an image, type a word, and see how it looks. So I built Thumby, a small native macOS thumbnail editor for fast text-overlay iteration.
