@@ -3,7 +3,7 @@ import AppKit
 import UniformTypeIdentifiers
 
 @main
-struct ThumbyApp: App {
+struct ThumbcraftApp: App {
     var body: some Scene {
         WindowGroup {
             EditorView()
@@ -198,7 +198,7 @@ struct EditorView: View {
             VStack(alignment: .leading, spacing: 18) {
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Thumby")
+                    Text("Thumbcraft")
                         .font(.system(size: 24, weight: .bold))
                     Text(state.imageURL?.lastPathComponent ?? "Untitled image")
                         .foregroundStyle(.secondary)

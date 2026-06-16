@@ -1,4 +1,4 @@
-# Thumby
+# Thumbcraft
 
 A small, native macOS app for fast thumbnail text overlays. Drop in an image, type a word, pick a style, place it, export a PNG. No layers, no canvas setup.
 
@@ -19,7 +19,7 @@ swift run
 
 ```bash
 ./Scripts/package-app.sh
-open .build/release/Thumby.app
+open .build/release/Thumbcraft.app
 ```
 
 ## Usage

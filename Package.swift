@@ -3,17 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "Thumby",
+    name: "Thumbcraft",
     platforms: [
         .macOS(.v14)
     ],
     products: [
-        .executable(name: "Thumby", targets: ["Thumby"])
+        .executable(name: "Thumbcraft", targets: ["Thumbcraft"])
     ],
     targets: [
         .executableTarget(
-            name: "Thumby",
-            path: "Sources/Thumby"
+            name: "Thumbcraft",
+            path: "Sources/Thumbcraft"
         )
     ]
 )

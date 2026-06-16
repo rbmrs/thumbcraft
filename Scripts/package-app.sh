@@ -6,7 +6,7 @@ cd "$ROOT_DIR"
 
 swift build -c release
 
-APP_PATH=".build/release/Thumby.app"
+APP_PATH=".build/release/Thumbcraft.app"
 CONTENTS="$APP_PATH/Contents"
 MACOS="$CONTENTS/MacOS"
 RESOURCES="$CONTENTS/Resources"
@@ -14,7 +14,7 @@ RESOURCES="$CONTENTS/Resources"
 rm -rf "$APP_PATH"
 mkdir -p "$MACOS" "$RESOURCES"
 
-cp ".build/release/Thumby" "$MACOS/Thumby"
+cp ".build/release/Thumbcraft" "$MACOS/Thumbcraft"
 
 cat > "$CONTENTS/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
@@ -24,13 +24,13 @@ cat > "$CONTENTS/Info.plist" <<'PLIST'
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleExecutable</key>
-    <string>Thumby</string>
+    <string>Thumbcraft</string>
     <key>CFBundleIdentifier</key>
-    <string>dev.rafaelbm.thumby</string>
+    <string>dev.rafaelbm.thumbcraft</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>Thumby</string>
+    <string>Thumbcraft</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
